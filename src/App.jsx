@@ -1,10 +1,11 @@
 import React from 'react'
 import Nav from './section/Nav'
+import Footer from './section/Footer'
 
 const App = () => {
   return (
-    <div className='text-red-900'>
-      <Nav/>
+    <div className='w-full'>
+      <Footer/>
     </div>
   )
 }

@@ -4,7 +4,7 @@ export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="flex justify-between items-center px-6 py-4 bg-white text-black font-semibold text-lg shadow-md relative">
+    <nav className="flex justify-between items-center px-6 py-4 bg-white text-black font-semibold text-0.5xl shadow-md relative">
       <div className="text-2xl font-bold">Tarang</div>
 
       <div
@@ -17,18 +17,20 @@ export default function Nav() {
       </div>
 
       {/* Desktop Nav Links */}
-      <ul className="lg:flex hidden items-center gap-6">
-        <li className="hover:text-blue-500 cursor-pointer">BOOK</li>
-        <li className="hover:text-blue-500 cursor-pointer">MANAGE</li>
-        <li className="hover:text-blue-500 cursor-pointer">EXPERIENCE</li>
-        <li className="hover:text-blue-500 cursor-pointer">LOYALTY</li>
-        <li className="hover:text-blue-500 cursor-pointer">HELP</li>
-      </ul>
+      <div className="lg:flex hidden  items-center justify-between gap-50">
+        <ul className="lg:flex hidden items-center gap-8">
+          <li className="hover:text-blue-500 cursor-pointer">BOOK</li>
+          <li className="hover:text-blue-500 cursor-pointer">MANAGE</li>
+          <li className="hover:text-blue-500 cursor-pointer">EXPERIENCE</li>
+          <li className="hover:text-blue-500 cursor-pointer">LOYALTY</li>
+          <li className="hover:text-blue-500 cursor-pointer">HELP</li>
+        </ul>
 
-      {/* Sign Up Button */}
-      <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-all hidden lg:block">
-        SIGN UP
-      </button>
+        {/* Sign Up Button */}
+        <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-all hidden lg:block">
+          SIGN UP
+        </button>
+      </div>
 
       {/* Mobile Menu */}
       <div
