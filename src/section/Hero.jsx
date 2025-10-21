@@ -4,7 +4,7 @@ import Dashboard from '../pages/components/Dashboard'
 const Hero = () => {
   return (
     <div>
-      {/* <Dashboard/> */}
+      <Dashboard/>
     </div>
   )
 }

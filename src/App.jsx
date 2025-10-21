@@ -6,10 +6,9 @@ import Ticket from './pages/components/ticket'
 const App = () => {
   return (
     <div className='w-full '>
-      {/* <Nav/>
+      <Nav/>
      <Hero/>
-     <Footer/> */}
-     <Ticket/>
+     <Footer/>
     </div>
   )
 }
