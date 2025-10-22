@@ -2,13 +2,14 @@ import React from 'react'
 import Nav from './section/Nav'
 import Footer from './section/Footer'
 import Hero from './section/Hero'
-import Ticket from './pages/components/ticket'
+import FlightDetails from './pages/FlightDetails/FlightDetails'
 const App = () => {
   return (
-    <div className='w-full '>
-      <Nav/>
+    <div className='w-full '> <FlightDetails/>
+      {/* <Nav/>
      <Hero/>
-     <Footer/>
+     <Footer/> */}
+     
     </div>
   )
 }

@@ -1,10 +1,10 @@
 import React from 'react'
-import apple from '../assets/apple.svg'
-import google  from '../assets/googleplay.svg'
-import facebook from '../assets/facebook.svg'
-import insta from '../assets/insta.svg'
-import twitter from '../assets/twitter.svg'
-import youtube from '../assets/youtube.svg'
+import apple from '../assets/Footer/apple.svg'
+import google  from '../assets/Footer/googleplay.svg'
+import facebook from '../assets/Footer/facebook.svg'
+import insta from '../assets/Footer/insta.svg'
+import twitter from '../assets/Footer/twitter.svg'
+import youtube from '../assets/Footer/youtube.svg'
 
 
 const Footer = () => {
