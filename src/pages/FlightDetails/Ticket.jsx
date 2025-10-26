@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 // Assuming 'flightscollect' contains the array of flight objects
 import flightscollect from './Data'; 
+import { Link } from 'react-router';
 
 const Ticket = () => {
   // Use the first flight object from the imported collection
@@ -23,8 +24,9 @@ const Ticket = () => {
 
 
   return (
+    
     <div className="max-w-4xl mx-auto my-8 bg-white rounded-xl shadow-2xl overflow-hidden">
-      
+      <Link to="/"><button className='absolute left-0 ml-5'> 🡨</button></Link>
       {/* 1. Flight Details Section */}
       <div className="p-6 md:p-8 border-b border-gray-100">
         <div className="flex justify-between items-start flex-wrap">

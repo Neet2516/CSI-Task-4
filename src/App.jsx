@@ -5,10 +5,10 @@ import Hero from './section/Hero'
 import FlightDetails from './pages/FlightDetails/FlightDetails'
 const App = () => {
   return (
-    <div className='w-full '> <FlightDetails/>
-      {/* <Nav/>
+    <div className='w-full '> 
+      <Nav/>
      <Hero/>
-     <Footer/> */}
+     <Footer/>
      
     </div>
   )

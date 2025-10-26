@@ -4,6 +4,7 @@ import medical from '../../assets/Dashboard/ticketcomponents/medical.png'
 import retire from '../../assets/Dashboard/ticketcomponents/retire.png'
 import senior from '../../assets/Dashboard/ticketcomponents/senior.png'
 import tarang from '../../assets/Dashboard/ticketcomponents/tarang.png'
+import { Link } from 'react-router'
 
 
 const Ticket = () => {
@@ -191,10 +192,10 @@ const Ticket = () => {
                           className="absolute left-1/2 -translate-x-1/2 top-10 hidden group-hover:block rounded-xl shadow-xl transition-all duration-300"
                         />
                     </div>
-                    
-                    <button className='px-8 py-3 bg-[#dc332f] text-white rounded-lg font-medium text-lg hover:bg-[#a40000] transition-colors'>
+                    <Link to='/Flight'><button className='px-8 py-3 bg-[#dc332f] text-white rounded-lg font-medium text-lg hover:bg-[#a40000] transition-colors'>
                         Search
-                    </button>
+                    </button></Link>
+                    
                 </div>
 
             </div>

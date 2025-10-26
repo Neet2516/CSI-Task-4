@@ -5,7 +5,7 @@ import Ticket from './ticket';
 const FlightDetails = () => {
   return (
     <>
-    {/* <div className="bg-white px-4 md:px-6 pt-4 pb-2 shadow-lg">
+    <div className="bg-white px-4 md:px-6 pt-4 pb-2 shadow-lg">
       <div className="flex flex-col md:flex-row items-stretch md:items-center justify-between border-b border-gray-100 pb-4">
         <div className="flex items-end space-x-2 w-full md:w-11/12 mb-4 md:mb-0">
           <div className="hidden sm:block pt-4 pr-4 flex-shrink-0">
@@ -66,7 +66,7 @@ const FlightDetails = () => {
           <a href="#" className="text-blue-600 hidden sm:block hover:underline">More Filters</a>
         </div>
       </div>
-    </div> */}
+    </div>
     <Ticket/>
     </>
     )
