@@ -2,6 +2,7 @@ import React from 'react';
 import plane from '../../assets/FlightDetails/plane.png'
 import filter from '../../assets/FlightDetails/filter.png'
 import Ticket from './ticket';
+import { Link } from 'react-router';
 const FlightDetails = () => {
   return (
     <>
@@ -46,10 +47,12 @@ const FlightDetails = () => {
             </div>
           </div>
         </div>
-
-        <button className="w-full md:w-auto flex-shrink-0 px-6 py-3 bg-red-500 text-white font-bold rounded-lg shadow-md hover:bg-red-600 transition duration-150">
+        <Link to="/MainPage">
+        <button className="w-full md:w-auto flex-shrink-0 px-5 py-3 bg-red-500 text-white font-bold rounded-lg shadow-md hover:bg-red-600 transition duration-150">
           Search Again
         </button>
+        </Link>
+   
       </div>
 
       <div className="flex flex-col sm:flex-row items-start sm:items-center py-2 space-y-2 sm:space-y-0 sm:space-x-12">

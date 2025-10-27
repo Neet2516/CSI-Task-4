@@ -192,7 +192,7 @@ const Ticket = () => {
                           className="absolute left-1/2 -translate-x-1/2 top-10 hidden group-hover:block rounded-xl shadow-xl transition-all duration-300"
                         />
                     </div>
-                    <Link to='/Flight'><button className='px-8 py-3 bg-[#dc332f] text-white rounded-lg font-medium text-lg hover:bg-[#a40000] transition-colors'>
+                    <Link to='/MainPage/flight'><button className='px-8 py-3 bg-[#dc332f] text-white rounded-lg font-medium text-lg hover:bg-[#a40000] transition-colors'>
                         Search
                     </button></Link>
                     

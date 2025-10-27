@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router";
 
 export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,9 +28,11 @@ export default function Nav() {
         </ul>
 
         {/* Sign Up Button */}
-        <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-all hidden lg:block">
-          SIGN UP
-        </button>
+        <Link to = "/">
+            <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-all hidden lg:block">
+              SIGN OUT
+            </button>
+        </Link>
       </div>
 
       {/* Mobile Menu */}
@@ -45,7 +48,7 @@ export default function Nav() {
           <li className="hover:text-blue-500 cursor-pointer">LOYALTY</li>
           <li className="hover:text-blue-500 cursor-pointer">HELP</li>
           <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-all">
-            SIGN UP
+            Sign OUT
           </button>
         </ul>
       </div>

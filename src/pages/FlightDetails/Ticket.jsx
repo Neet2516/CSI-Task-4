@@ -26,7 +26,7 @@ const Ticket = () => {
   return (
     
     <div className="max-w-4xl mx-auto my-8 bg-white rounded-xl shadow-2xl overflow-hidden">
-      <Link to="/"><button className='absolute left-0 ml-5'> 🡨</button></Link>
+      <Link to="/MainPage"><button className='absolute left-0 ml-5'> 🡨</button></Link>
       {/* 1. Flight Details Section */}
       <div className="p-6 md:p-8 border-b border-gray-100">
         <div className="flex justify-between items-start flex-wrap">
@@ -73,9 +73,11 @@ const Ticket = () => {
           </div>
 
           {/* Book Now Button */}
+          <Link to="/MainPage/booking">
           <button className="hidden md:block px-6 py-3 bg-red-500 text-white font-semibold rounded-lg hover:bg-red-600 transition duration-150 flex-shrink-0">
             Book Now
           </button>
+          </Link>
         </div>
       </div>
       
@@ -130,9 +132,11 @@ const Ticket = () => {
 
         {/* Mobile Book Now Button */}
         <div className="mt-6 md:hidden">
+          <Link to="/MainPage/booking">
           <button className="w-full px-6 py-3 bg-red-500 text-white font-semibold rounded-lg hover:bg-red-600 transition duration-150">
             Book Now
           </button>
+        </Link>
         </div>
       </div>
     </div>
