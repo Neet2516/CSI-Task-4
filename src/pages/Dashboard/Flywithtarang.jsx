@@ -5,7 +5,7 @@ import Economy from '../../assets/Explore/Economy.png'
 import First from '../../assets/Explore/First.png'
 import Premium from '../../assets/Explore/Premium.png'
 
-const Explore= () => {
+const FLywithtarang= () => {
   return (
     <div>
         <div className='flex flex-col items-center justify-center'>
@@ -25,4 +25,4 @@ const Explore= () => {
   )
 }
 
-export default Explore
+export default FLywithtarang
