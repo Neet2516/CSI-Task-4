@@ -2,7 +2,7 @@ import React from 'react'
 import  seat from '../../assets/Dashboard/seat.svg'
 import Destinations from './Destinations'
 import learnmore from '../../assets/Dashboard/learnmore.png'
-import FLywithtarang from './Flywithtarang'
+
 const Dashboard = () => {
 return (
     <div className='relative'>
@@ -24,7 +24,6 @@ after:md:text-[1.25rem]">
 
             </div>    
         <Destinations/>
-       <FLywithtarang/>
     </div>
 )
 }

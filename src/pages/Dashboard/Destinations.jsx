@@ -4,8 +4,9 @@ import img2 from '../../assets/Destinations/img2.png'
 import img3 from '../../assets/Destinations/img3.png'
 import img4 from '../../assets/Destinations/img4.png'
 import ticket from '../../assets/Dashboard/ticket.png'
-import Explore from './explore'
 import Ticket from './ticket'
+import FLywithtarang from './Flywithtarang'
+
 
 const Destinations = () => {
     
@@ -25,7 +26,7 @@ const Destinations = () => {
             }
         </div>
       </div>
-      <Explore/>
+      <FLywithtarang/>
     </div>
   )
 }
