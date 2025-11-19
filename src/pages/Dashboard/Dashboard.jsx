@@ -2,7 +2,7 @@ import React from 'react'
 import  seat from '../../assets/Dashboard/seat.svg'
 import Destinations from './Destinations'
 import learnmore from '../../assets/Dashboard/learnmore.png'
-import Explore from './explore'
+import Explore from './Explore'
 const Dashboard = () => {
 return (
     <div className='relative'>
