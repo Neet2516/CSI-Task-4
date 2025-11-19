@@ -3,8 +3,7 @@ import img1 from '../../assets/Destinations/img1.png'
 import img2 from '../../assets/Destinations/img2.png'
 import img3 from '../../assets/Destinations/img3.png'
 import img4 from '../../assets/Destinations/img4.png'
-import ticket from '../../assets/Dashboard/ticket.png'
-import Ticket from './ticket'
+import Ticket from './Ticket'
 import FLywithtarang from './Flywithtarang'
 
 
