@@ -1,7 +1,7 @@
 import React from 'react';
 import plane from '../../assets/FlightDetails/plane.png'
 import filter from '../../assets/FlightDetails/filter.png'
-import Ticket from './ticket';
+import Ticket from './Ticket';
 import { Link } from 'react-router';
 const FlightDetails = () => {
   return (
