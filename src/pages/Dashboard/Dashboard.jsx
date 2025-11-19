@@ -24,6 +24,7 @@ after:md:text-[1.25rem]">
 
             </div>    
         <Destinations/>
+        <Explore/>
     </div>
 )
 }
